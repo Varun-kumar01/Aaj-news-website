@@ -1,0 +1,668 @@
+body{
+    overflow-x: hidden;
+}
+.one{
+    margin-top:-30px;  
+    margin-left: -50px;
+    display: flex;
+    justify-content: center;
+    a{
+        text-decoration: none;
+    }
+    img{
+        height: 180px;
+    }
+    h1{
+        font-size: 80px;
+        color: black;
+        margin-left: -50px;
+        
+    }
+}
+#oneLine{
+    margin-top: -20px;
+    border-bottom: 2px solid black;
+    width: 80%;
+}
+
+/* stage 2/////////////////////////////////// */
+
+.two{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    
+    a{
+        text-decoration: none;
+        font-family: "Abril Fatface", serif;
+        font-style: normal;
+        color: black;
+        font-size: 25px;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .two{
+     flex-direction: row;
+     gap: 30px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .two{
+    display: none;
+    }
+}
+
+.b1{
+    padding: 10px 20px;
+}
+.three{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    padding-right: 40px;
+    padding-top: 20px;
+    button{
+        margin-top: 10px;
+        font-weight: bold;
+        border-radius: 50px;
+        padding: 5px 15px 5px 200px;
+        margin-left: -350px;
+    }
+    .material-symbols-outlined {
+        margin-left: -90px;
+        padding-right: 20px;
+        display: none;
+        font-size: 40px;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+}
+.four{
+    display:flex;
+    justify-content: left;
+    margin-top: -40px;
+    margin-left: 50px;
+    
+    .b1 button{
+        cursor: pointer;
+        padding: 7px 15px;
+        font-weight: bold;
+        background-color: brown;
+        border-color: brown;
+        border-radius: 10px;
+    }
+    .b2 button{
+        cursor: pointer;
+        padding: 7px 15px;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: -15px;
+    }
+}
+
+#threeLine{
+    margin-top: 30px;
+    padding: 2px;
+    background-color: black;
+    border: 2px solid black;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .three {
+        margin-top: -20px;
+        #search{
+            padding-left:80px;
+            margin-right: -700px;
+            
+        }
+        
+        .material-symbols-outlined{
+            display: inline-block;
+            margin-top: 4px;
+            margin-left: -220;
+            margin-right: -35px;
+        }
+    }
+    #threeLine{
+        margin-top: 10px;
+    }
+    .four{
+        margin-left: 10px;
+        margin-top: -42px;
+        .b1 button{
+            padding: 3px 10px;
+        }
+        .b2 button{
+            padding: 3px 10px;
+
+        }
+    }
+}
+
+/* stage 3///////////////////////////////////////////// */
+
+.five {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    .five1{
+        border-right: 2px solid black;
+        padding-right: 70px;
+        width: 250px;
+        a:hover{
+            text-decoration: underline;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        h1{
+            color: brown;
+        }
+        h5{
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+    }
+    .five2{
+        border-right: 2px solid black;
+        padding-right: 90px;
+        width: 650px;
+        a:hover{
+            text-decoration: underline;
+        }
+        h1{
+            font-size: 60px;
+        }
+        img{
+            height: 500px;
+            width: 700px;
+        }
+        h3{
+            font-size: 20px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .f1{
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            width: 700px;
+            .fiveBy1{
+                img{
+                    height: 250px;
+                    width: 350px;
+                }
+            }
+            .fiveBy2{
+                font-size: 15px;
+                height: 100px;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        h4{
+            color: brown;
+        }
+        h5{
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+    .five3{
+        width: 250px;
+        a:hover{
+            text-decoration: underline;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        h4{
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .five{
+        .five1{
+            order: 1;
+            width: 150px;
+            padding-right: 55px;
+            a{
+            
+                font-size: 15px;
+            }
+        }
+        .five2{
+            order: 0;
+            width: 700px;
+            padding-right: 25px;
+            h1{
+                font-size: 40px;
+            }
+            h3{
+                font-size: 15px;
+            }
+            img{
+                height: 400px;
+                width: 670px;
+            }
+            .f1{
+                display: flex;
+                flex-direction: column;
+                .fiveBy1{
+                    width: 600px;
+                    img{
+                        height: 400px;
+                        width: 670px;
+                    }
+                }
+                .fiveBy2{
+                    width: 600px;
+                }
+            }
+        }
+        .five3{
+            order: 3;
+            width: 150px;
+            a{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media  screen and (max-width: 1130px) {
+    .five{
+        .five1{
+            border: none;
+            order: 1;
+            width: 200px;
+            padding-right: 25px;
+            a{
+            
+                font-size: 13px;
+            }
+        }
+        .five2{
+            border: none;
+            order: 0;
+            width: 500px;
+            padding-right: 25px;
+            h1{
+                font-size: 40px;
+            }
+            h3{
+                font-size: 15px;
+            }
+            img{
+                height: 300px;
+                width: 450px;
+            }
+            .f1{
+                display: flex;
+                flex-direction: column;
+                .fiveBy1{
+                    width: 450px;
+                    img{
+                        height: 300px;
+                        width: 450px;
+                    }
+                }
+                .fiveBy2{
+                    width: 450px;
+                }
+            }
+        }
+        .five3{
+            order: 3;
+            width: 200px;
+            a{
+                font-size: 13px;
+            }
+        }
+    }
+}
+@media screen and (max-width:990px) {
+    .five{
+        .five2{
+            width: 850px;
+            img{
+                height: 550px;
+                width: 900px;
+            }
+            .f1{
+                .fiveBy1{
+                    width: 850px;
+                    img{
+                        height: 550px;
+                        width: 900px;
+                    }
+                }
+                .fiveBy2{
+                    width: 850px;
+                }
+            }
+        }
+        .five1{
+            margin-top: 150px;
+            width: 400px;
+            border-right: 2px solid black;
+            padding-right: 50px;
+            a{
+                font-size: 15px;
+            }
+        }
+        .five3{
+            margin-top: 150px;
+            width: 400px;
+            a{
+                font-size: 15px;
+            } 
+        }
+    }
+}
+
+@media screen and (max-width:890px) {
+    .five{
+        .five1{
+            margin-top: 150px;
+            width: 300px;
+            border-right: 2px solid black;
+            padding-right: 100px;
+            a{
+                font-size: 15px;
+            }
+
+        }
+        .five3{
+            margin-top: 150px;
+            width: 300px;
+            a{
+                font-size: 15px;
+            } 
+        }
+        .five2{
+            h1{
+                width: 800px;
+                font-size: 40px;
+            }
+            img{
+                height: 400px;
+                width: 800px;
+            }
+            .f1{
+                .fiveBy1{
+                    width: 600px;
+                    img{
+                        height: 400px;
+                        width: 800px;
+                    }
+                }
+                .fiveBy2{
+                    width: 800px;
+                }
+            }
+            
+        }
+    }
+}
+@media screen and (max-width:780px) {
+    .five{
+        .five2{
+            h1{
+                width: 700px;
+            }
+            img{
+                height: 400px;
+                width: 700px;
+            }
+            .f1{
+                .fiveBy1{
+                    width: 600px;
+                    img{
+                        height: 400px;
+                        width: 700px;
+                    }
+                }
+                .fiveBy2{
+                    width: 700px;
+                }
+            }
+        }
+        .five1{
+            padding-right: 30px;
+            width: 300px;
+        }
+        .five3{
+            width: 300px;
+        }
+    }
+}
+@media screen and (max-width:710px) {
+    .five{
+        .five2{
+            h1{
+                width: 600px;
+            }
+            img{
+                height: 400px;
+                width: 600px;
+            }
+            .f1{
+                .fiveBy1{
+                    width: 500px;
+                    img{
+                        height: 400px;
+                        width: 600px;
+                    }
+                }
+                .fiveBy2{
+                    width: 500px;
+                }
+            }
+        }
+        .five1{
+            padding-right: 60px;
+            width: 250px;
+            a{
+                font-size: 12px;
+            }
+        }
+        .five3{
+            width: 250px;
+            a{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .five .five1{
+        padding-top: 50px;
+        order: 1;
+        border: none;
+        padding-right: 0px;
+        width: 450px;
+        a{
+            font-size: 17px;
+        }
+    }
+    .five .five2{
+        order: 0;
+        width: 450px;
+        padding-right: 0px;
+        border: none;
+        h1{
+            font-size: 40px;
+            width: 450px;
+        }
+        h3{
+            font-size: 17px;
+        }
+        img{
+            height: 250px;
+            width: 450px;
+        }
+        .f1 {
+            flex-wrap: wrap;
+            gap: 10px;
+            .fiveBy1{
+                width: 450px;
+                img{
+                    height: 250px;
+                    width: 450px;
+                }
+            }
+            .fiveBy2{
+                width: 450px;
+            }
+        }
+    }
+    .five .five3{
+        order: 2;
+        margin-top: 20px;
+       width: 450px; 
+       a{
+            font-size: 17px;
+       }
+    }
+}
+/* stage 4 of the project  */
+
+.divider{
+    /* padding-top: 100px; */
+    hr{
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        width: 800px;
+    }
+}
+.six{
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    .six1{
+        text-align: center;
+        img{
+            height: 250px;
+            width: 350px;
+        }
+        h5{
+            margin-top: -20px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600px;
+            font-style: normal; 
+        }
+        button{
+            margin-top: -10px;
+            padding: 5px 15px;
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            border-radius: 30px;
+        }
+    }
+    .six2{
+        a:hover{
+            text-decoration: underline;
+        }
+        margin-top: 80px;
+        width: 500px;
+        font-size: 20px;
+
+    }
+    .six3{
+        a:hover{
+            text-decoration: underline;
+        }
+        margin-top: 80px;
+        width: 500px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1400px) {
+    .divider{
+        margin-top: 50px;
+    }
+    .six{
+        
+        .six2{
+            width: 300px;
+        }
+        .six3{
+            width: 300px;
+        }
+    }
+}
+@media screen and (max-width:1000px) {
+   .six{
+    .six1{
+        width: 1000px;
+    }
+    .six2{
+        width: 400px;
+    }
+    .six3{
+        width: 400px;
+    }
+   }
+}
+
+/* stage 4 of the project//////////// */
+.foot{
+    padding: 100px;
+    hr{
+       border: 2px solid black; 
+    }
+}
+.seven{
+    background-color: rgb(220, 218, 218);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .seven2{
+        padding: 50px;
+    }
+}
+
+
+
+
+
+
+
